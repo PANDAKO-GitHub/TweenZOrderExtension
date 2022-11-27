@@ -534,7 +534,7 @@
                 "6",
                 "\"linear\"",
                 "1000",
-                "",
+                "no",
                 ""
               ]
             }
@@ -581,18 +581,19 @@
   "eventsFunctionsExtensions": [
     {
       "author": "",
-      "category": "",
+      "category": "Movement",
       "extensionNamespace": "",
       "fullName": "Tween Z-Order",
-      "helpPath": "",
+      "helpPath": "https://github.com/PANDAKO-GitHub/TweenZOrderExtension",
       "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLWxheWVycy10cmlwbGUiIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTIgMEwzIDdMNC42MyA4LjI3TDEyIDE0TDE5LjM2IDguMjdMMjEgN0wxMiAwTTE5LjM3IDEwLjczTDEyIDE2LjQ3TDQuNjIgMTAuNzRMMyAxMkwxMiAxOUwyMSAxMkwxOS4zNyAxMC43M00xOS4zNyAxNS43M0wxMiAyMS40N0w0LjYyIDE1Ljc0TDMgMTdMMTIgMjRMMjEgMTdMMTkuMzcgMTUuNzNaIiAvPjwvc3ZnPg==",
       "name": "TweenZOrder",
       "previewIconUrl": "https://asset-resources.gdevelop.io/public-resources/Icons/aa16433aab812cfb1e558bb1a8ccca399b07a10ea097f3ac81095141fe3f56a7_layers-triple.svg",
       "shortDescription": "Smoothly animate Z order of objects.",
       "version": "1.0.0",
-      "description": "",
+      "description": "This extension provides a behavior to smoothly animate the Z-order of an object.",
       "tags": [
-        "Tween"
+        "tween",
+        "z-order"
       ],
       "authorIds": [
         "Zu55H5hcb9YmZTltIVOTAFDJQyB2"
@@ -601,7 +602,7 @@
       "eventsFunctions": [],
       "eventsBasedBehaviors": [
         {
-          "description": "",
+          "description": "Smoothly animate Z order of objects.",
           "fullName": "Tween Z-Order",
           "name": "TweenZOrder",
           "objectType": "",

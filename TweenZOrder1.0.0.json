@@ -9,7 +9,7 @@
   "previewIconUrl": "https://asset-resources.gdevelop.io/public-resources/Icons/aa16433aab812cfb1e558bb1a8ccca399b07a10ea097f3ac81095141fe3f56a7_layers-triple.svg",
   "shortDescription": "Smoothly animate Z order of objects.",
   "version": "1.0.0",
-  "description": "This extension provides a behavior to smoothly animate the Z-order of an object.",
+  "description": "This extension provides a behavior to smoothly animate the Z-order of an object.  \nAdd the \"Tween Z-Order\" behavior to any object and use the \"Tween Z-Order\" action.",
   "tags": [
     "tween",
     "z-order"

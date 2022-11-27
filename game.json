@@ -1,0 +1,820 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 99,
+    "major": 4,
+    "minor": 0,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "folderProject": false,
+    "orientation": "landscape",
+    "packageName": "com.pandako.tweenzorder",
+    "pixelsRounding": false,
+    "projectUuid": "2e6ef056-38ff-499a-acbb-560180ae74c1",
+    "scaleMode": "linear",
+    "sizeOnStartupMode": "adaptWidth",
+    "templateSlug": "",
+    "useExternalSourceFiles": false,
+    "version": "1.0.0",
+    "name": "TweenZOrder",
+    "description": "",
+    "author": "PANDAKO",
+    "windowWidth": 800,
+    "windowHeight": 600,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {},
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0.2,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "authorIds": [
+      "Zu55H5hcb9YmZTltIVOTAFDJQyB2"
+    ],
+    "categories": [],
+    "playableDevices": [],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Medium Suit_Clubs.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Medium Suit_Clubs.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Playing Cards/Cards/60a9544f8a910bb136e127fb765e8fcc5c290a81bc32cb1ac7a5c04e6208b8b1_Medium Suit_Clubs.png",
+          "name": "Medium Suit_Clubs.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Medium Suit_Diamonds.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Medium Suit_Diamonds.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Playing Cards/Cards/10393897983c8cf8898a045230d5b6c87ea6ebd66a80f9f6e5c8bef8d4fcd30f_Medium Suit_Diamonds.png",
+          "name": "Medium Suit_Diamonds.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Medium Suit_Hearts.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Medium Suit_Hearts.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Playing Cards/Cards/1f9492dc1820d0c5c96514c743723f932e403194b6a65ebb56fed4904a659f42_Medium Suit_Hearts.png",
+          "name": "Medium Suit_Hearts.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Medium Suit_Spades.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Medium Suit_Spades.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Playing Cards/Cards/83acec54f4b47aeac5ad965c46ede9e50b82b0741d9d542c6020c7af36b2d45d_Medium Suit_Spades.png",
+          "name": "Medium Suit_Spades.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Medium Suit_Hearts.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Medium Suit_Hearts.png",
+        "smoothed": true,
+        "userAdded": false
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [],
+  "objectsGroups": [],
+  "variables": [],
+  "layouts": [
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Example",
+      "name": "Example",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.8399999999999999,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 58,
+          "layer": "",
+          "name": "MediumSuit",
+          "persistentUuid": "9efc94c1-646e-4beb-897a-7e06afd2dfb9",
+          "width": 40,
+          "x": 293,
+          "y": 294,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 58,
+          "layer": "",
+          "name": "MediumSuit",
+          "persistentUuid": "24a7bd51-5d13-4150-a7e7-3a388af13de3",
+          "width": 40,
+          "x": 283,
+          "y": 239,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 58,
+          "layer": "",
+          "name": "MediumSuit",
+          "persistentUuid": "6f32da4b-48c3-4eb0-a88f-18f790050b18",
+          "width": 40,
+          "x": 268,
+          "y": 255,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 58,
+          "layer": "",
+          "name": "MediumSuit",
+          "persistentUuid": "974d602d-3053-433f-b0f0-acd4afa50821",
+          "width": 40,
+          "x": 292,
+          "y": 269,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 58,
+          "layer": "",
+          "name": "MediumSuit",
+          "persistentUuid": "f1e3ffe9-13ba-457b-808f-57667d8ec0bf",
+          "width": 40,
+          "x": 267,
+          "y": 279,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 58,
+          "layer": "",
+          "name": "Card",
+          "persistentUuid": "6dd37aef-fa50-4af2-aed7-c75be798fa24",
+          "width": 40,
+          "x": 298,
+          "y": 260,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "assetStoreId": "9caf0466e9acc27eca38ec6b54de93a96a90b27a5c1b11ad3aa3428dcc397f88",
+          "name": "MediumSuit",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Clubs",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.02500000037252903,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Medium Suit_Clubs.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Diamonds",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.02500000037252903,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Medium Suit_Diamonds.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Hearts",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.02500000037252903,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Medium Suit_Hearts.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Spades",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.02500000037252903,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Medium Suit_Spades.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Card",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            },
+            {
+              "name": "TweenZOrder",
+              "type": "TweenZOrder::TweenZOrder",
+              "Tween": "Tween"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\Medium Suit_Hearts.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TweenZOrder::TweenZOrder::TweenZOrder"
+              },
+              "parameters": [
+                "Card",
+                "TweenZOrder",
+                "\"Z\"",
+                "6",
+                "\"linear\"",
+                "1000",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Tween::HasFinished"
+              },
+              "parameters": [
+                "Card",
+                "Tween",
+                "\"Z\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::RemoveTween"
+              },
+              "parameters": [
+                "Card",
+                "Tween",
+                "\"Z\""
+              ]
+            },
+            {
+              "type": {
+                "value": "TweenZOrder::TweenZOrder::TweenZOrder"
+              },
+              "parameters": [
+                "Card",
+                "TweenZOrder",
+                "\"-Z\"",
+                "0",
+                "\"linear\"",
+                "1000",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Tween::HasFinished"
+              },
+              "parameters": [
+                "Card",
+                "Tween",
+                "\"-Z\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::RemoveTween"
+              },
+              "parameters": [
+                "Card",
+                "Tween",
+                "\"-Z\""
+              ]
+            },
+            {
+              "type": {
+                "value": "TweenZOrder::TweenZOrder::TweenZOrder"
+              },
+              "parameters": [
+                "Card",
+                "TweenZOrder",
+                "\"Z\"",
+                "6",
+                "\"linear\"",
+                "1000",
+                "",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 0,
+          "ambientLightColorG": 15542280,
+          "ambientLightColorR": 16,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        },
+        {
+          "name": "TweenZOrder",
+          "type": "TweenZOrder::TweenZOrder"
+        }
+      ]
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [
+    {
+      "author": "",
+      "category": "",
+      "extensionNamespace": "",
+      "fullName": "Tween Z-Order",
+      "helpPath": "",
+      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLWxheWVycy10cmlwbGUiIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTIgMEwzIDdMNC42MyA4LjI3TDEyIDE0TDE5LjM2IDguMjdMMjEgN0wxMiAwTTE5LjM3IDEwLjczTDEyIDE2LjQ3TDQuNjIgMTAuNzRMMyAxMkwxMiAxOUwyMSAxMkwxOS4zNyAxMC43M00xOS4zNyAxNS43M0wxMiAyMS40N0w0LjYyIDE1Ljc0TDMgMTdMMTIgMjRMMjEgMTdMMTkuMzcgMTUuNzNaIiAvPjwvc3ZnPg==",
+      "name": "TweenZOrder",
+      "previewIconUrl": "https://asset-resources.gdevelop.io/public-resources/Icons/aa16433aab812cfb1e558bb1a8ccca399b07a10ea097f3ac81095141fe3f56a7_layers-triple.svg",
+      "shortDescription": "Smoothly animate Z order of objects.",
+      "version": "1.0.0",
+      "description": "",
+      "tags": [
+        "Tween"
+      ],
+      "authorIds": [
+        "Zu55H5hcb9YmZTltIVOTAFDJQyB2"
+      ],
+      "dependencies": [],
+      "eventsFunctions": [],
+      "eventsBasedBehaviors": [
+        {
+          "description": "",
+          "fullName": "Tween Z-Order",
+          "name": "TweenZOrder",
+          "objectType": "",
+          "eventsFunctions": [
+            {
+              "description": "Tweens an object Z order from its current value to a new one.",
+              "fullName": "Tween Z-Order",
+              "functionType": "Action",
+              "group": "Z order",
+              "name": "TweenZOrder",
+              "sentence": "Tween the Z-Order of _PARAM0_ to _PARAM3_ with easing _PARAM4_ over _PARAM5_ms as _PARAM2_ (Destroy: _PARAM6_)",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "Object",
+                        "__TweenZOrder.Z",
+                        "=",
+                        "Object.ZOrder()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjetTxt"
+                      },
+                      "parameters": [
+                        "Object",
+                        "__TweenZOrder.LastID",
+                        "=",
+                        "GetArgumentAsString(\"TweenIdentifier\")"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "GetArgumentAsBoolean"
+                      },
+                      "parameters": [
+                        "\"Destroy\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Tween::AddObjectVariableTween2"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Tween",
+                        "GetArgumentAsString(\"TweenIdentifier\")",
+                        "__TweenZOrder.Z",
+                        "GetArgumentAsNumber(\"ToZ\")",
+                        "GetArgumentAsString(\"Easing\")",
+                        "GetArgumentAsNumber(\"Ms\")",
+                        "yes"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "GetArgumentAsBoolean"
+                      },
+                      "parameters": [
+                        "\"Destroy\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Tween::AddObjectVariableTween2"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Tween",
+                        "GetArgumentAsString(\"TweenIdentifier\")",
+                        "__TweenZOrder.Z",
+                        "GetArgumentAsNumber(\"ToZ\")",
+                        "GetArgumentAsString(\"Easing\")",
+                        "GetArgumentAsNumber(\"Ms\")",
+                        "no"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "TweenZOrder::TweenZOrder",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Tween Identifier",
+                  "name": "TweenIdentifier",
+                  "type": "string"
+                },
+                {
+                  "description": "To Z order",
+                  "name": "ToZ",
+                  "type": "expression"
+                },
+                {
+                  "description": "Easing",
+                  "name": "Easing",
+                  "supplementaryInformation": "[\"linear\",\"easeInQuad\",\"easeOutQuad\",\"easeInOutQuad\",\"easeInCubic\",\"easeOutCubic\",\"easeInOutCubic\",\"easeInQuart\",\"easeOutQuart\",\"easeInOutQuart\",\"easeInQuint\",\"easeOutQuint\",\"easeInOutQuint\",\"easeInSine\",\"easeOutSine\",\"easeInOutSine\",\"easeInExpo\",\"easeOutExpo\",\"easeInOutExpo\",\"easeInCirc\",\"easeOutCirc\",\"easeInOutCirc\",\"easeOutBounce\",\"easeInBack\",\"easeOutBack\",\"easeInOutBack\",\"elastic\",\"swingFromTo\",\"swingFrom\",\"swingTo\",\"bounce\",\"bouncePast\",\"easeFromTo\",\"easeFrom\",\"easeTo\"]",
+                  "type": "stringWithSelector"
+                },
+                {
+                  "description": "Duration, in milliseconds",
+                  "name": "Ms",
+                  "type": "expression"
+                },
+                {
+                  "description": "Destroy this object when Tween finishes",
+                  "name": "Destroy",
+                  "type": "yesorno"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "doStepPreEvents",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Tween::IsPlaying"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Tween",
+                        "Object.VariableString(__TweenZOrder.LastID)"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ChangePlan"
+                      },
+                      "parameters": [
+                        "Object",
+                        "=",
+                        "Object.Variable(__TweenZOrder.Z)"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "TweenZOrder::TweenZOrder",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            }
+          ],
+          "propertyDescriptors": [
+            {
+              "value": "",
+              "type": "Behavior",
+              "label": "",
+              "description": "",
+              "group": "",
+              "extraInformation": [
+                "Tween::TweenBehavior"
+              ],
+              "hidden": false,
+              "name": "Tween"
+            }
+          ],
+          "sharedPropertyDescriptors": []
+        }
+      ],
+      "eventsBasedObjects": []
+    }
+  ],
+  "externalLayouts": [],
+  "externalSourceFiles": []
+}

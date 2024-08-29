@@ -8,6 +8,8 @@
   },
   "properties": {
     "adaptGameResolutionAtRuntime": true,
+    "antialiasingMode": "MSAA",
+    "antialisingEnabledOnMobile": false,
     "folderProject": false,
     "orientation": "landscape",
     "packageName": "com.pandako.tweenzorder",
@@ -44,9 +46,14 @@
       "showGDevelopSplash": true,
       "showProgressBar": true
     },
+    "watermark": {
+      "placement": "bottom-left",
+      "showWatermark": true
+    },
     "authorIds": [
       "Zu55H5hcb9YmZTltIVOTAFDJQyB2"
     ],
+    "authorUsernames": [],
     "categories": [],
     "playableDevices": [],
     "extensionProperties": [],
@@ -124,6 +131,9 @@
     "resourceFolders": []
   },
   "objects": [],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT"
+  },
   "objectsGroups": [],
   "variables": [],
   "layouts": [
@@ -246,9 +256,9 @@
       ],
       "objects": [
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "9caf0466e9acc27eca38ec6b54de93a96a90b27a5c1b11ad3aa3428dcc397f88",
           "name": "MediumSuit",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -374,9 +384,9 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Card",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -425,6 +435,17 @@
           ]
         }
       ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "MediumSuit"
+          },
+          {
+            "objectName": "Card"
+          }
+        ]
+      },
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -441,7 +462,7 @@
           "actions": [
             {
               "type": {
-                "value": "TweenZOrder::TweenZOrder::TweenZOrder"
+                "value": "TweenZOrder::TweenZOrder::TweenZOrderSecond"
               },
               "parameters": [
                 "Card",
@@ -449,7 +470,7 @@
                 "\"Z\"",
                 "6",
                 "\"linear\"",
-                "1000",
+                "1",
                 "",
                 ""
               ]
@@ -483,7 +504,7 @@
             },
             {
               "type": {
-                "value": "TweenZOrder::TweenZOrder::TweenZOrder"
+                "value": "TweenZOrder::TweenZOrder::TweenZOrderSecond"
               },
               "parameters": [
                 "Card",
@@ -491,7 +512,7 @@
                 "\"-Z\"",
                 "0",
                 "\"linear\"",
-                "1000",
+                "1",
                 "",
                 ""
               ]
@@ -525,7 +546,7 @@
             },
             {
               "type": {
-                "value": "TweenZOrder::TweenZOrder::TweenZOrder"
+                "value": "TweenZOrder::TweenZOrder::TweenZOrderSecond"
               },
               "parameters": [
                 "Card",
@@ -533,7 +554,7 @@
                 "\"Z\"",
                 "6",
                 "\"linear\"",
-                "1000",
+                "1",
                 "no",
                 ""
               ]
@@ -546,9 +567,15 @@
           "ambientLightColorB": 0,
           "ambientLightColorG": 15542280,
           "ambientLightColorR": 16,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
+          "cameraType": "perspective",
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
+          "isLocked": false,
           "name": "",
+          "renderingType": "",
           "visibility": true,
           "cameras": [
             {
@@ -589,8 +616,16 @@
       "name": "TweenZOrder",
       "previewIconUrl": "https://asset-resources.gdevelop.io/public-resources/Icons/aa16433aab812cfb1e558bb1a8ccca399b07a10ea097f3ac81095141fe3f56a7_layers-triple.svg",
       "shortDescription": "Smoothly animate Z order of objects.",
-      "version": "1.0.0",
-      "description": "This extension provides a behavior to smoothly animate the Z-order of an object.  \nAdd the \"Tween Z-Order\" behavior to any object and use the \"Tween Z-Order\" action.",
+      "version": "1.0.1",
+      "description": [
+        "This extension provides a behavior to smoothly animate the Z-order of an object.  ",
+        "Add the \"Tween Z-Order\" behavior to any object and use the \"Tween Z-Order\" action.  ",
+        "",
+        "## Release Notes  ",
+        "### v1.0.1 [2024/08/29]",
+        "- Support for GDevelop 5.4.x.  ",
+        "- Changed duration unit from milliseconds to seconds.  "
+      ],
       "tags": [
         "tween",
         "z-order"
@@ -599,6 +634,8 @@
         "Zu55H5hcb9YmZTltIVOTAFDJQyB2"
       ],
       "dependencies": [],
+      "globalVariables": [],
+      "sceneVariables": [],
       "eventsFunctions": [],
       "eventsBasedBehaviors": [
         {
@@ -609,11 +646,11 @@
           "eventsFunctions": [
             {
               "description": "Tweens an object Z order from its current value to a new one.",
-              "fullName": "Tween Z-Order",
+              "fullName": "Tween Z-Order (Deprecated, Millisecond type)",
               "functionType": "Action",
-              "group": "Z order",
+              "group": "Layers and cameras",
               "name": "TweenZOrder",
-              "sentence": "Tween the Z-Order of _PARAM0_ to _PARAM3_ with easing _PARAM4_ over _PARAM5_ms as _PARAM2_ (Destroy: _PARAM6_)",
+              "sentence": "⚠️ Tween the Z-Order of _PARAM0_ to _PARAM3_ with easing _PARAM4_ over _PARAM5_ms as _PARAM2_ (Destroy: _PARAM6_)",
               "events": [
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -638,7 +675,7 @@
                         "Object",
                         "__TweenZOrder.LastID",
                         "=",
-                        "GetArgumentAsString(\"TweenIdentifier\")"
+                        "TweenIdentifier"
                       ]
                     }
                   ]
@@ -663,11 +700,11 @@
                       "parameters": [
                         "Object",
                         "Tween",
-                        "GetArgumentAsString(\"TweenIdentifier\")",
+                        "TweenIdentifier",
                         "__TweenZOrder.Z",
-                        "GetArgumentAsNumber(\"ToZ\")",
-                        "GetArgumentAsString(\"Easing\")",
-                        "GetArgumentAsNumber(\"Ms\")",
+                        "ToZ",
+                        "Easing",
+                        "Ms",
                         "yes"
                       ]
                     }
@@ -694,11 +731,11 @@
                       "parameters": [
                         "Object",
                         "Tween",
-                        "GetArgumentAsString(\"TweenIdentifier\")",
+                        "TweenIdentifier",
                         "__TweenZOrder.Z",
-                        "GetArgumentAsNumber(\"ToZ\")",
-                        "GetArgumentAsString(\"Easing\")",
-                        "GetArgumentAsNumber(\"Ms\")",
+                        "ToZ",
+                        "Easing",
+                        "Ms",
                         "no"
                       ]
                     }
@@ -747,6 +784,145 @@
               "objectGroups": []
             },
             {
+              "description": "Tweens an object Z order from its current value to a new one.",
+              "fullName": "Tween Z-Order",
+              "functionType": "Action",
+              "group": "Layers and cameras",
+              "name": "TweenZOrderSecond",
+              "sentence": "Tween the Z-Order of _PARAM0_ to _PARAM3_ with easing _PARAM4_ over _PARAM5_s as _PARAM2_ (Destroy: _PARAM6_)",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "Object",
+                        "__TweenZOrder.Z",
+                        "=",
+                        "Object.ZOrder()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjetTxt"
+                      },
+                      "parameters": [
+                        "Object",
+                        "__TweenZOrder.LastID",
+                        "=",
+                        "TweenIdentifier"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "GetArgumentAsBoolean"
+                      },
+                      "parameters": [
+                        "\"Destroy\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectVariableTween3"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Tween",
+                        "TweenIdentifier",
+                        "__TweenZOrder.Z",
+                        "ToZ",
+                        "Easing",
+                        "Second",
+                        "yes"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "GetArgumentAsBoolean"
+                      },
+                      "parameters": [
+                        "\"Destroy\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectVariableTween3"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Tween",
+                        "TweenIdentifier",
+                        "__TweenZOrder.Z",
+                        "ToZ",
+                        "Easing",
+                        "Second",
+                        "no"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "TweenZOrder::TweenZOrder",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Tween Identifier",
+                  "name": "TweenIdentifier",
+                  "type": "string"
+                },
+                {
+                  "description": "To Z order",
+                  "name": "ToZ",
+                  "type": "expression"
+                },
+                {
+                  "description": "Easing",
+                  "name": "Easing",
+                  "supplementaryInformation": "[\"linear\",\"easeInQuad\",\"easeOutQuad\",\"easeInOutQuad\",\"easeInCubic\",\"easeOutCubic\",\"easeInOutCubic\",\"easeInQuart\",\"easeOutQuart\",\"easeInOutQuart\",\"easeInQuint\",\"easeOutQuint\",\"easeInOutQuint\",\"easeInSine\",\"easeOutSine\",\"easeInOutSine\",\"easeInExpo\",\"easeOutExpo\",\"easeInOutExpo\",\"easeInCirc\",\"easeOutCirc\",\"easeInOutCirc\",\"easeOutBounce\",\"easeInBack\",\"easeOutBack\",\"easeInOutBack\",\"elastic\",\"swingFromTo\",\"swingFrom\",\"swingTo\",\"bounce\",\"bouncePast\",\"easeFromTo\",\"easeFrom\",\"easeTo\"]",
+                  "type": "stringWithSelector"
+                },
+                {
+                  "description": "Duration, in seconds",
+                  "name": "Second",
+                  "type": "expression"
+                },
+                {
+                  "description": "Destroy this object when Tween finishes",
+                  "name": "Destroy",
+                  "type": "yesorno"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
               "fullName": "",
               "functionType": "Action",
               "name": "doStepPreEvents",
@@ -762,7 +938,7 @@
                       "parameters": [
                         "Object",
                         "Tween",
-                        "Object.VariableString(__TweenZOrder.LastID)"
+                        "Object.__TweenZOrder.LastID"
                       ]
                     }
                   ],
@@ -774,7 +950,7 @@
                       "parameters": [
                         "Object",
                         "=",
-                        "Object.Variable(__TweenZOrder.Z)"
+                        "Object.__TweenZOrder.Z"
                       ]
                     }
                   ]
@@ -806,7 +982,6 @@
               "extraInformation": [
                 "Tween::TweenBehavior"
               ],
-              "hidden": false,
               "name": "Tween"
             }
           ],

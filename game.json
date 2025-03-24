@@ -1,9 +1,9 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 99,
-    "major": 4,
-    "minor": 0,
+    "build": 224,
+    "major": 5,
+    "minor": 5,
     "revision": 0
   },
   "properties": {
@@ -18,7 +18,6 @@
     "scaleMode": "linear",
     "sizeOnStartupMode": "adaptWidth",
     "templateSlug": "",
-    "useExternalSourceFiles": false,
     "version": "1.0.0",
     "name": "TweenZOrder",
     "description": "",
@@ -67,7 +66,6 @@
   "resources": {
     "resources": [
       {
-        "alwaysLoaded": false,
         "file": "assets/Medium Suit_Clubs.png",
         "kind": "image",
         "metadata": "",
@@ -80,7 +78,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Medium Suit_Diamonds.png",
         "kind": "image",
         "metadata": "",
@@ -93,7 +90,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Medium Suit_Hearts.png",
         "kind": "image",
         "metadata": "",
@@ -106,7 +102,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Medium Suit_Spades.png",
         "kind": "image",
         "metadata": "",
@@ -119,7 +114,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Medium Suit_Hearts.png",
         "kind": "image",
         "metadata": "",
@@ -616,12 +610,14 @@
       "name": "TweenZOrder",
       "previewIconUrl": "https://asset-resources.gdevelop.io/public-resources/Icons/aa16433aab812cfb1e558bb1a8ccca399b07a10ea097f3ac81095141fe3f56a7_layers-triple.svg",
       "shortDescription": "Smoothly animate Z order of objects.",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "description": [
         "This extension provides a behavior to smoothly animate the Z-order of an object.  ",
         "Add the \"Tween Z-Order\" behavior to any object and use the \"Tween Z-Order\" action.  ",
         "",
         "## Release Notes  ",
+        "### v1.0.2 [2025/03/11]",
+        "- Support for GDevelop 5.5.x.  ",
         "### v1.0.1 [2024/08/29]",
         "- Support for GDevelop 5.4.x.  ",
         "- Changed duration unit from milliseconds to seconds.  "
@@ -938,7 +934,7 @@
                       "parameters": [
                         "Object",
                         "Tween",
-                        "Object.__TweenZOrder.LastID"
+                        "Object.VariableString(__TweenZOrder[\"LastID\"])"
                       ]
                     }
                   ],
@@ -950,7 +946,7 @@
                       "parameters": [
                         "Object",
                         "=",
-                        "Object.__TweenZOrder.Z"
+                        "Object.Variable(__TweenZOrder[\"Z\"])"
                       ]
                     }
                   ]
@@ -991,6 +987,5 @@
       "eventsBasedObjects": []
     }
   ],
-  "externalLayouts": [],
-  "externalSourceFiles": []
+  "externalLayouts": []
 }
